@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Gilroy";
+  src: url(fonts/Gilroy-Medium.ttf);
+}
+
+#main {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#main #part2 img {
+  width: 600px;
+  margin-top: 100px;
+  transform: rotate(17deg);
+}
+
+#main #part1 {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+#main #part1 h1 {
+  font-weight: 800;
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main #part1 p {
+  margin-top: 20px;
+  width: 380px;
+  font-family: 'Gilroy';
+}
+
+#main #btn1 {
+  font-size: 16px;
+  background-color: red;
+  border-color: transparent;
+  color: #fff;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+#main #btn2 {
+  margin-left: 30px;
+  font-size: 17px;
+  background-color: #fff;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+#main #logo {
+  cursor: pointer;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
