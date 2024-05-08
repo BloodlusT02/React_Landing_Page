@@ -3,6 +3,7 @@ import '../App.css'
 
 const LandingPage = () => {
     return(
+        // Navbar
         <div id="nav-main">
             <div id="nav">
                 <div id="nav-part1">
